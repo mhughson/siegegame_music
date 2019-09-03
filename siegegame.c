@@ -330,7 +330,7 @@ void main() {
   // set music callback function for NMI
   nmi_set_callback(famitone_update);
   // play music
-  
+  music_play(0);
   
   joy_install (joy_static_stddrv);
   vrambuf_clear();
